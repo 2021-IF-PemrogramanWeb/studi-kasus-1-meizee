@@ -29,7 +29,7 @@ if(isset($_POST['signin'])){
             $_SESSION["user"] = $user;
             // login sukses, alihkan ke halaman timeline
             // echo "yey!";
-            header("Location: ../WelcomePage/index.html");
+            header("Location: ../WelcomePage/index.php");
         }
     }
     // else{

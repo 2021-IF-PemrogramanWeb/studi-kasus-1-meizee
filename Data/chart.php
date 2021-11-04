@@ -1,4 +1,10 @@
-<html>
+<?php 
+	include 'koneksi.php';
+	require_once("../Authentication/auth.php");
+?>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<title>Chart</title>
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -26,11 +32,6 @@
 	<center>
 		<h2>Chart</h2>
 	</center>
- 
- 
-	<?php 
-	include 'koneksi.php';
-	?>
  
 	<div style="width: 800px;margin: 0px auto;">
 		<canvas id="myChart"></canvas>

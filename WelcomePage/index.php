@@ -1,3 +1,7 @@
+<?php 
+	require_once("../Authentication/auth.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -24,6 +28,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
                 <a class="navbar-brand">Bookly Book Club</a>
+                <a href="../Authentication/logout.php">Logout</a>
             </div>
         </nav>
         <!-- Header-->

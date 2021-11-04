@@ -1,5 +1,6 @@
 <?php 
 include 'koneksi.php';
+require_once("../Authentication/auth.php");
 ?>
 
 <!DOCTYPE html>
